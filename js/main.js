@@ -1,3 +1,7 @@
 alert('Hello again, World!');
 
-const firstName = "Maria";
+let FIRSTNAME = "Maria";
+let lastName = "Nefulda"; 
+ // var lastName = "Nefulda"; //
+FIRSTNAME = "Mia";
+console.log (FIRSTNAME, lastName);
