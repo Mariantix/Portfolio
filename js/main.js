@@ -9,3 +9,12 @@ age = "twenty three";
 age = 23.0;
 age = true;
 console.log (FIRSTNAME, lastName);
+
+const fullName = (first, last) => {
+        console.log(first, last);
+        console.log(first +"'s favourite pet are pandas");
+}
+
+fullName("Maria", "Nefulda");
+fullName("Mia",  "Bia");
+fullName("IDK", "MAN");
